@@ -1,0 +1,28 @@
+{"level":"info","message":"Booting VM for replica 1","timestamp":"2026-11-25T14:33:11.180913576Z"}
+{"message":"INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)","timestamp":"2026-11-25T14:33:14.164869248Z","level":"error"}
+{"message":"INFO:     Started parent process [458]","timestamp":"2026-11-25T14:33:14.165021078Z","level":"error"}
+{"level":"error","timestamp":"2026-11-25T14:33:15.335892959Z","message":"INFO:     Started server process [467]"}
+{"message":"INFO:     Started server process [468]","timestamp":"2026-11-25T14:33:15.336006379Z","level":"error"}
+{"message":"INFO:     Waiting for application startup.","level":"error","timestamp":"2026-11-25T14:33:15.336044329Z"}
+{"level":"error","message":"INFO:     Waiting for application startup.","timestamp":"2026-11-25T14:33:15.336839369Z"}
+{"timestamp":"2026-11-25T14:33:15.336842999Z","environment":"production","ts":"2026-11-25T14:33:15.336423+00:00","message":"","level":"info","event":"startup"}
+{"message":"","environment":"production","level":"info","ts":"2026-11-25T14:33:15.336451+00:00","timestamp":"2026-11-25T14:33:15.336844249Z","event":"startup"}
+{"message":"INFO:     Application startup complete.","timestamp":"2026-11-25T14:33:15.336957779Z","level":"error"}
+{"level":"error","timestamp":"2026-11-25T14:33:15.336958839Z","message":"INFO:     Application startup complete."}
+{"level":"info","ms":143.01,"path":"/ready","event":"http_request","message":"","status":200,"timestamp":"2026-11-25T14:35:32.859608065Z","method":"GET","request_id":"a48853d4d164472ab853d35e2682f0b5","ts":"2026-11-25T14:35:32.858515+00:00"}
+{"timestamp":"2026-11-25T14:37:21.778907715Z","path":"/health","method":"GET","level":"info","event":"http_request","message":"","status":200,"ms":72.95,"ts":"2026-11-25T14:37:21.778116+00:00","request_id":"8aeb2e8a240e4528925ca4821fdb0603"}
+{"status":200,"message":"","timestamp":"2026-11-25T14:37:22.153842391Z","request_id":"54d22a47a29c429d909b9064fc3e848b","path":"/ready","level":"info","event":"http_request","ts":"2026-11-25T14:37:22.153583+00:00","method":"GET","ms":17.84}
+{"message":"","level":"info","status":401,"ts":"2026-11-25T14:37:22.928886+00:00","path":"/ask","ms":17.25,"timestamp":"2026-11-25T14:37:22.929166393Z","request_id":"32ba7329e2d2489f892bbdc63ed68ee9","method":"POST","event":"http_request"}
+{"event":"http_request","ts":"2026-11-25T14:38:10.724839+00:00","ms":414.79,"level":"info","method":"POST","request_id":"e54cb938cd0a40ea8bf2f5793b9d25c3","path":"/ask","message":"","timestamp":"2026-11-25T14:38:10.725739036Z","status":200}
+{"message":"","path":"/health","ms":34.44,"timestamp":"2026-11-25T14:42:42.594282713Z","level":"info","event":"http_request","ts":"2026-11-25T14:42:42.592751+00:00","request_id":"00694e866a79448c9afed47bbdc466e0","method":"GET","status":200}
+{"ts":"2026-11-25T14:42:43.022652+00:00","path":"/ready","status":200,"event":"http_request","timestamp":"2026-11-25T14:42:43.022827178Z","ms":7.34,"message":"","request_id":"e52f6495e389447aa3d757b68d0a6da4","level":"info","method":"GET"}
+{"level":"info","event":"http_request","message":"","method":"POST","ms":9.2,"status":401,"ts":"2026-11-25T14:42:43.610210+00:00","path":"/ask","timestamp":"2026-11-25T14:42:43.610744743Z","request_id":"6f1e5d1239184463a83985525908063c"}
+{"timestamp":"2026-11-25T14:42:44.688198568Z","method":"POST","ms":178.79,"message":"","ts":"2026-11-25T14:42:44.688038+00:00","status":200,"level":"info","request_id":"863eec281184477faaf3d70c575ec67f","event":"http_request","path":"/ask"}
+{"message":"","timestamp":"2026-11-25T14:46:17.313052734Z","request_id":"f1ccd1955e274526a0c36adaa0a5c52d","method":"GET","ts":"2026-11-25T14:46:17.312689+00:00","event":"http_request","ms":8.67,"status":200,"path":"/health","level":"info"}
+{"status":404,"message":"","level":"info","timestamp":"2026-11-25T14:46:18.195494355Z","ms":2.3,"ts":"2026-11-25T14:46:18.195331+00:00","event":"http_request","method":"GET","path":"/favicon.ico","request_id":"1185cc5aa28a483fbc9fa560fc3222e4"}
+{"path":"/docs","request_id":"d7da83a942aa4b9c9b372b231ec307c7","message":"","level":"info","ts":"2026-11-25T14:46:18.314220+00:00","timestamp":"2026-11-25T14:46:18.315793789Z","method":"GET","status":200,"ms":21.85,"event":"http_request"}
+{"level":"info","status":200,"timestamp":"2026-11-25T14:46:21.529706015Z","message":"","method":"GET","request_id":"c2a062b4846246cba411932495c961e4","event":"http_request","ts":"2026-11-25T14:46:21.529583+00:00","path":"/openapi.json","ms":216.57}
+{"path":"/ask","timestamp":"2026-11-25T14:46:24.164926469Z","request_id":"5c285b69f5fe42858c656a3369948502","ts":"2026-11-25T14:46:24.164810+00:00","event":"http_request","message":"","ms":170.21,"method":"POST","status":200,"level":"info"}
+{"timestamp":"2026-11-25T14:53:09.733780133Z","request_id":"7889095c841546139de82b07ed55549e","message":"","path":"/docs","level":"info","ms":23.46,"status":200,"ts":"2026-11-25T14:53:09.732944+00:00","method":"GET","event":"http_request"}
+{"level":"info","timestamp":"2026-11-25T14:53:12.834976182Z","path":"/openapi.json","ts":"2026-11-25T14:53:12.834502+00:00","message":"","request_id":"8e4b384abdc14ae6ad09e79167af168b","method":"GET","event":"http_request","status":200,"ms":1.8}
+{"path":"/ask","request_id":"7f1f604b832745038e3aa57fe44ea1e3","timestamp":"2026-11-25T14:53:15.114318364Z","level":"info","message":"","ts":"2026-11-25T14:53:15.113424+00:00","event":"http_request","status":200,"ms":239.87,"method":"POST"}

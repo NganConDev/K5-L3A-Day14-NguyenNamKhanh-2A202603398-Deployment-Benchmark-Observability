@@ -1,0 +1,86 @@
+[
+  {
+    "Command": "\"uvicorn app.main:ap…\"",
+    "CreatedAt": "2026-11-25 21:23:35 +0700 +07",
+    "ExitCode": 0,
+    "Health": "healthy",
+    "ID": "a1b50ac0a163",
+    "Image": "k5-day14-observability-agent",
+    "Labels": "com.docker.compose.project.working_dir=/Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/06-lab-complete/benchmark-observability/production,com.docker.compose.container-number=2,com.docker.compose.depends_on=jaeger:service_started:false,com.docker.compose.image=sha256:ce666b6a79d257b110ecab39f52e0cd1c42751bc4c1c2419610c9a154ed4f903,com.docker.compose.oneoff=False,com.docker.compose.project=k5-day14-observability,com.docker.compose.project.config_files=/Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/06-lab-complete/benchmark-observability/production/docker-compose.yml,com.docker.compose.config-hash=c445f159749690881db3b87f00d2cb697cb4a0067a33990a1453b2a8a9ff2001,com.docker.compose.replace=75adae771dd1179e67e15599dc9ba85ad49e59baf204e7820337a9b3b7554154,com.docker.compose.service=agent,com.docker.compose.version=2.23.0",
+    "LocalVolumes": "0",
+    "Mounts": "",
+    "Name": "k5-day14-observability-agent-2",
+    "Names": "k5-day14-observability-agent-2",
+    "Networks": "k5-day14-observability_obs_net",
+    "Ports": "8000/tcp",
+    "Publishers": [
+      {
+        "URL": "",
+        "TargetPort": 8000,
+        "PublishedPort": 0,
+        "Protocol": "tcp"
+      }
+    ],
+    "RunningFor": "2 minutes ago",
+    "Service": "agent",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 2 minutes (healthy)"
+  },
+  {
+    "Command": "\"uvicorn app.main:ap…\"",
+    "CreatedAt": "2026-11-25 21:25:50 +0700 +07",
+    "ExitCode": 0,
+    "Health": "starting",
+    "ID": "e664d3cfaed8",
+    "Image": "k5-day14-observability-agent",
+    "Labels": "com.docker.compose.image=sha256:ce666b6a79d257b110ecab39f52e0cd1c42751bc4c1c2419610c9a154ed4f903,com.docker.compose.project=k5-day14-observability,com.docker.compose.project.config_files=/Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/06-lab-complete/benchmark-observability/production/docker-compose.yml,com.docker.compose.version=2.23.0,com.docker.compose.project.working_dir=/Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/06-lab-complete/benchmark-observability/production,com.docker.compose.service=agent,com.docker.compose.config-hash=c445f159749690881db3b87f00d2cb697cb4a0067a33990a1453b2a8a9ff2001,com.docker.compose.container-number=3,com.docker.compose.depends_on=jaeger:service_started:false,com.docker.compose.oneoff=False",
+    "LocalVolumes": "0",
+    "Mounts": "",
+    "Name": "k5-day14-observability-agent-3",
+    "Names": "k5-day14-observability-agent-3",
+    "Networks": "k5-day14-observability_obs_net",
+    "Ports": "8000/tcp",
+    "Publishers": [
+      {
+        "URL": "",
+        "TargetPort": 8000,
+        "PublishedPort": 0,
+        "Protocol": "tcp"
+      }
+    ],
+    "RunningFor": "17 seconds ago",
+    "Service": "agent",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 15 seconds (health: starting)"
+  },
+  {
+    "Command": "\"uvicorn app.main:ap…\"",
+    "CreatedAt": "2026-11-25 21:25:50 +0700 +07",
+    "ExitCode": 0,
+    "Health": "starting",
+    "ID": "ce1d14a85004",
+    "Image": "k5-day14-observability-agent",
+    "Labels": "com.docker.compose.config-hash=c445f159749690881db3b87f00d2cb697cb4a0067a33990a1453b2a8a9ff2001,com.docker.compose.image=sha256:ce666b6a79d257b110ecab39f52e0cd1c42751bc4c1c2419610c9a154ed4f903,com.docker.compose.project=k5-day14-observability,com.docker.compose.project.config_files=/Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/06-lab-complete/benchmark-observability/production/docker-compose.yml,com.docker.compose.version=2.23.0,com.docker.compose.container-number=4,com.docker.compose.depends_on=jaeger:service_started:false,com.docker.compose.oneoff=False,com.docker.compose.project.working_dir=/Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/06-lab-complete/benchmark-observability/production,com.docker.compose.service=agent",
+    "LocalVolumes": "0",
+    "Mounts": "",
+    "Name": "k5-day14-observability-agent-4",
+    "Names": "k5-day14-observability-agent-4",
+    "Networks": "k5-day14-observability_obs_net",
+    "Ports": "8000/tcp",
+    "Publishers": [
+      {
+        "URL": "",
+        "TargetPort": 8000,
+        "PublishedPort": 0,
+        "Protocol": "tcp"
+      }
+    ],
+    "RunningFor": "17 seconds ago",
+    "Service": "agent",
+    "Size": "0B",
+    "State": "running",
+    "Status": "Up 15 seconds (health: starting)"
+  }
+]

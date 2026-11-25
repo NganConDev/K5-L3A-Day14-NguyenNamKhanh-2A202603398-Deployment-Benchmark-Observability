@@ -1,0 +1,5 @@
+Public URL: https://agent-production-8e366087.up.railway.app
+GET /health  200 PASS
+GET /ready  200 PASS
+POST /ask  401 PASS
+POST /ask (authenticated) 200 PASS

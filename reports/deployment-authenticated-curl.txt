@@ -1,0 +1,11 @@
+HTTP/2 200 
+content-type: application/json
+date: Wed, 25 Nov 2026 14:38:10 GMT
+server: railway-hikari
+x-railway-request-id: ogSNv5NzQpC5VovLozsQ6Q
+x-request-id: e54cb938cd0a40ea8bf2f5793b9d25c3
+content-length: 189
+x-hikari-trace: hkg1.hn7d
+x-railway-edge: hkg1
+
+{"question":"Hello","answer":"Tôi là AI agent được deploy lên cloud. Câu hỏi của bạn đã được nhận.","usage":{"input_tokens":1,"output_tokens":17,"cost_usd":1.035e-05}}

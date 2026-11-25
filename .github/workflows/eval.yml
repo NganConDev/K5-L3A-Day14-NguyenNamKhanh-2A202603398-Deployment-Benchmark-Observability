@@ -1,0 +1,36 @@
+name: quality-gate
+on: [push, pull_request]
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Evaluate agent v2
+        working-directory: 06-lab-complete/benchmark-observability/develop
+        run: |
+          pip install -r requirements.txt
+          AGENT_VERSION=v2 MOCK_ERROR_RATE=0 MOCK_SLOW_RATE=0 python app.py > agent.log 2>&1 &
+          agent_pid=$!
+          trap 'kill "$agent_pid" 2>/dev/null || true' EXIT
+          python - <<'PY'
+          import time, urllib.request
+          for _ in range(60):
+              try:
+                  urllib.request.urlopen('http://localhost:8000/health', timeout=1)
+                  break
+              except OSError:
+                  time.sleep(0.25)
+          else:
+              raise SystemExit('Agent failed to start')
+          PY
+          python eval/run_eval.py --url http://localhost:8000 --min-accuracy 0.85 --out eval-ci.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-evidence
+          path: |
+            06-lab-complete/benchmark-observability/develop/eval-ci.json
+            06-lab-complete/benchmark-observability/develop/agent.log

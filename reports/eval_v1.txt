@@ -1,0 +1,49 @@
+
+🧪 Eval agent tại http://localhost:8002
+
+  ✅ basic-01         score=1.00    192.9ms
+  ❌ docker-01        score=0.33    143.8ms
+  ❌ docker-02        score=0.00    188.0ms
+  ❌ probe-01         score=0.00    171.6ms
+  ❌ probe-02         score=0.00    201.0ms
+  ❌ reliability-01   score=0.00    176.4ms
+  ❌ config-01        score=0.00    183.3ms
+  ❌ security-01      score=0.00    171.6ms
+  ❌ security-02      score=0.00    152.8ms
+  ❌ scaling-01       score=0.00    132.7ms
+  ❌ scaling-02       score=0.00    194.6ms
+  ❌ scaling-03       score=0.00    157.6ms
+  ❌ bench-01         score=0.00    158.3ms
+  ❌ bench-02         score=0.00    163.7ms
+  ❌ obs-01           score=0.00    152.2ms
+  ❌ obs-02           score=0.00    145.8ms
+  ❌ obs-03           score=0.00    145.1ms
+  ❌ obs-04           score=0.00    150.3ms
+  ❌ obs-05           score=0.00    163.5ms
+  ❌ obs-06           score=0.00    165.4ms
+  ❌ slo-01           score=0.00    179.4ms
+  ❌ cost-01          score=0.00    153.4ms
+  ❌ cloud-01         score=0.00    148.0ms
+
+══════════════════════════════════════════════════════════
+  EVAL REPORT — agent v1
+══════════════════════════════════════════════════════════
+  Accuracy      : 4.3%  (1/23)
+  Errors        : 0
+  Latency (ms)  : p50=163.5  p95=194.4
+  Avg tokens    : 56.8
+  Total cost    : $0.0004   (cost / câu đúng: $0.00039975)
+  Theo category :
+    - benchmark      0/3  (0%)
+    - cost           0/1  (0%)
+    - deployment     1/3  (33%)
+    - docker         0/2  (0%)
+    - observability  0/6  (0%)
+    - reliability    0/3  (0%)
+    - scaling        0/3  (0%)
+    - security       0/2  (0%)
+──────────────────────────────────────────────────────────
+  Quality gate (accuracy ≥ 100%, không regression): ❌ FAIL
+══════════════════════════════════════════════════════════
+
+💾 Đã lưu report: /Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/reports/eval_v1.json

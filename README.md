@@ -1,3 +1,7 @@
+> **Completed lab work:** [step-by-step progress](LAB_PROGRESS.md), [mission answers](MISSION_ANSWERS.md), [Railway deployment](DEPLOYMENT.md), [measured benchmark report](BENCHMARK_REPORT.md).
+> Part 6: **PASS 12/12**; final eval: **23/23, zero regressions**. Actual JSON/CSV/logs and screenshots accompany the reports.
+> Live health endpoint: https://agent-production-8e366087.up.railway.app/health
+
 # Day 14 — Deployment, Benchmark & Observability
 
 > Đưa agent lên cloud, đo xem nó nhanh và đúng tới đâu, rồi giám sát nó khi chạy thật.

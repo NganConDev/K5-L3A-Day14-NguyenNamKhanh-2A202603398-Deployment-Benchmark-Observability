@@ -1,0 +1,8 @@
+{
+  "run_date": "2026-11-25T19:59:15.152616+07:00",
+  "host": "macOS-13.7.5-x86_64-i386-64bit",
+  "processor": "x86_64",
+  "logical_cpus": 8,
+  "python": "3.12.16",
+  "python_dependencies": "pip 26.2.2"
+}

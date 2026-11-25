@@ -1,0 +1,78 @@
+alert-rule-tests
+observability-scale1
+scale_1
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+scale_1 still running
+observability-scale3
+scale_3
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+scale_3 still running
+chaos-start
+chaos
+Alerts at 3.64 [{'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.244079632988189e+00'}]
+Alerts at 8.65 [{'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.23972755322633e+00'}, {'name': 'AgentInstanceDown', 'state': 'pending', 'value': '0e+00'}, {'name': 'AgentInstanceDown', 'state': 'pending', 'value': '0e+00'}]
+Alerts at 13.66 [{'name': 'AgentInstanceDown', 'state': 'pending', 'value': '0e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.220904631538637e+00'}]
+Alerts at 18.67 [{'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.220904631538637e+00'}]
+Alerts at 23.69 [{'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.2337571715386355e+00'}]
+Alerts at 28.7 [{'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.6497602775864817e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.150000868106473e+00'}]
+Alerts at 33.72 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '7.383487633582732e-02'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.8218863361642021e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.087553108271767e+00'}]
+Alerts at 38.73 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.2296637864379106e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.8940513276498057e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.063674164388821e+00'}]
+Alerts at 43.74 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.8108348533301716e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9375818297642995e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.010298010509892e+00'}]
+Alerts at 48.81 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '2.0156673144627038e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.935348003302595e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.978982115276841e+00'}]
+Alerts at 53.83 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.9520494149646006e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9253649762993907e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.9498663348768135e+00'}]
+Alerts at 58.84 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.9636614400589197e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.921132099536175e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.969563334862334e+00'}]
+Alerts at 63.85 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.8865813731477454e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9078772298245479e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.030748830968814e+00'}]
+Alerts at 68.87 [{'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.043125937932682e+00'}, {'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.8432677170702672e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9053828855719064e+00'}]
+Alerts at 73.9 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.8805148383547854e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9046117167149343e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.059284645310111e+00'}]
+Alerts at 78.91 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.8653241164883216e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9074535758515236e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '5.001225796323073e+00'}]
+Alerts at 83.92 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.8904056842164815e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9062420454097557e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.978255580537222e+00'}]
+Alerts at 88.93 [{'name': 'AgentHighErrorRate', 'state': 'pending', 'value': '1.8520861070035338e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.8992803282431048e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.944923608843576e+00'}]
+Alerts at 93.94 [{'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.9176200997e+00'}, {'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.9076812116840966e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9005498533724343e+00'}]
+Alerts at 98.96 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.9402447562707548e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.8988840966290863e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.915104935774468e+00'}]
+Alerts at 103.97 [{'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.893330935530727e+00'}, {'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.911234831577462e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.8991891173644617e+00'}]
+Alerts at 108.99 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.909091522160098e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9033581870229401e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.845057970314234e+00'}]
+Alerts at 114.01 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.8910764457760137e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9214168508196146e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.740713563695603e+00'}]
+Alerts at 119.14 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.9565270597966367e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.95967725488457e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.756422363524827e+00'}]
+Alerts at 124.15 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.9984039792008607e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.965571627938711e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.787713623087553e+00'}]
+Alerts at 129.19 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.967887702719724e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9807801426377771e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.716914737652829e+00'}]
+Alerts at 134.2 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '2.0016645760606508e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9894807236168754e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.686863901936778e+00'}]
+Alerts at 139.21 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.9958432861200456e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.989261595692092e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.773632349500156e+00'}]
+Alerts at 144.23 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '2.0066334991708126e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'pending', 'value': '1.9890359168241964e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.866734657314307e+00'}]
+Alerts at 149.24 [{'name': 'AgentHighErrorRate', 'state': 'firing', 'value': '1.9440967876512308e-01'}, {'name': 'AgentHighLatencyP95', 'state': 'firing', 'value': '1.99242277992278e+00'}, {'name': 'LLMCostBurnRateHigh', 'state': 'firing', 'value': '4.948250370096251e+00'}]
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+chaos still running
+Observability evidence complete

@@ -1,0 +1,27 @@
+[
+  {
+    "ts": "2026-11-25T14:30:59.831051+00:00",
+    "level": "INFO",
+    "service": "observable-agent",
+    "instance": "d9f6b962a132",
+    "event": "llm_error",
+    "trace_id": "416911366929532c7092b005eebe08f0",
+    "span_id": "43bb286f6f72525b",
+    "request_id": "0b8fc8f90b30",
+    "error": "Upstream LLM error: 503 Service Unavailable (mock)"
+  },
+  {
+    "ts": "2026-11-25T14:30:59.833192+00:00",
+    "level": "INFO",
+    "service": "observable-agent",
+    "instance": "d9f6b962a132",
+    "event": "http_request",
+    "trace_id": "416911366929532c7092b005eebe08f0",
+    "span_id": "43bb286f6f72525b",
+    "request_id": "0b8fc8f90b30",
+    "method": "POST",
+    "route": "/ask",
+    "status": 503,
+    "ms": 867.2
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "rps": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {},
+          "value": [
+            1795616897.27,
+            "56.01683113507131"
+          ]
+        }
+      ]
+    }
+  },
+  "rps_by_instance": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "instance": "172.22.0.4:8000"
+          },
+          "value": [
+            1795616897.279,
+            "18.217188153373456"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "172.22.0.8:8000"
+          },
+          "value": [
+            1795616897.279,
+            "19.63600661806149"
+          ]
+        },
+        {
+          "metric": {
+            "instance": "172.22.0.9:8000"
+          },
+          "value": [
+            1795616897.279,
+            "18.16363636363636"
+          ]
+        }
+      ]
+    }
+  },
+  "p95_seconds": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {},
+          "value": [
+            1795616897.286,
+            "0.563779223868099"
+          ]
+        }
+      ]
+    }
+  },
+  "average_seconds": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {},
+          "value": [
+            1795616897.292,
+            "0.2574706535640026"
+          ]
+        }
+      ]
+    }
+  }
+}

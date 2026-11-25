@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Nov 2026 13:34:39 GMT
+Content-Type: application/json
+Content-Length: 97
+Connection: keep-alive
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+
+{"status":"ok","uptime_seconds":824.3,"version":"2.0.0","timestamp":"2026-11-25T13:34:39.325396"}HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 25 Nov 2026 13:34:39 GMT
+Content-Type: application/json
+Content-Length: 95
+Connection: keep-alive
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+
+{"answer":"Agent đang hoạt động tốt! (mock response) Hỏi thêm câu hỏi đi nhé."}

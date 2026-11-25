@@ -16,6 +16,10 @@ from prometheus_client import Counter, Gauge, Histogram, disable_created_metrics
 disable_created_metrics()
 
 LATENCY_BUCKETS = (0.05, 0.1, 0.2, 0.3, 0.5, 0.75, 1.0, 1.5, 2.0, 3.0, 5.0)
+QUESTION_LENGTH = Histogram(
+    "agent_question_length_chars", "Question length in characters",
+    buckets=(20, 50, 100, 200, 500, 1000, 2000),
+)
 
 HTTP_REQUESTS = Counter(
     "http_requests_total", "Tổng số HTTP request",

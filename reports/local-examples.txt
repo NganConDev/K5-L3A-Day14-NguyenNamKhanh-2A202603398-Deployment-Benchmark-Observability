@@ -1,0 +1,67 @@
+
+Part 1 develop: POST /ask?question=Hello
+HTTP/1.1 200
+content-type: application/json
+{"answer": "Agent đang hoạt động tốt! (mock response) Hỏi thêm câu hỏi đi nhé."}
+
+Part 1 develop: POST /ask with JSON (expected 422)
+HTTP/1.1 422
+content-type: application/json
+{"detail": [{"type": "missing", "loc": ["query", "question"], "msg": "Field required", "input": null}]}
+
+Part 1 production: GET /health
+HTTP/1.1 200
+content-type: application/json
+{"status": "ok", "uptime_seconds": 0.3, "version": "1.0.0", "environment": "development", "timestamp": "2026-11-25T12:56:54.321045+00:00"}
+
+Part 1 production: GET /ready
+HTTP/1.1 200
+content-type: application/json
+{"ready": true}
+
+Part 1 production: POST /ask
+HTTP/1.1 200
+content-type: application/json
+{"question": "Docker", "answer": "Container là cách đóng gói app để chạy ở mọi nơi. Build once, run anywhere!", "model": "gpt-4o-mini"}
+
+Part 4 API key: missing key
+HTTP/1.1 401
+content-type: application/json
+{"detail": "Missing API key. Include header: X-API-Key: <your-key>"}
+
+Part 4 API key: correct key (redacted)
+HTTP/1.1 200
+content-type: application/json
+{"question": "hello", "answer": "Đây là câu trả lời từ AI agent (mock). Trong production, đây sẽ là response từ OpenAI/Anthropic."}
+
+Part 4 JWT: missing token
+HTTP/1.1 401
+content-type: application/json
+{"detail": "Authentication required. Include: Authorization: Bearer <token>"}
+
+POST /auth/token: HTTP 200; access_token=[REDACTED]
+
+Part 4 JWT request 1: token redacted
+HTTP/1.1 200
+content-type: application/json
+{"question": "What is Docker?", "answer": "Container là cách đóng gói app để chạy ở mọi nơi. Build once, run anywhere!", "usage": {"requests_remaining": 9, "budget_remaining_usd": 1.9e-05}}
+
+Part 4 JWT request 11: token redacted
+HTTP/1.1 429
+x-ratelimit-remaining: 0
+retry-after: 59
+content-type: application/json
+{"detail": {"error": "Rate limit exceeded", "limit": 10, "window_seconds": 60, "retry_after_seconds": 59}}
+Rate-limit loop status codes: [200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 429, 429]
+
+Part 5 develop: GET /health
+HTTP/1.1 200
+content-type: application/json
+{"status": "ok", "uptime_seconds": 0.3, "version": "1.0.0", "environment": "development", "timestamp": "2026-11-25T12:57:08.184825+00:00", "checks": {"memory": {"status": "ok", "used_percent": 63.3}}}
+
+Part 5 develop: GET /ready
+HTTP/1.1 200
+content-type: application/json
+{"ready": true, "in_flight_requests": 1}
+
+All local example checks passed.

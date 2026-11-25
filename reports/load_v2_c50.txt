@@ -1,0 +1,17 @@
+
+════════════════════════════════════════════════════════
+  LOAD TEST REPORT — http://localhost:8002
+════════════════════════════════════════════════════════
+  Requests     : 300  (concurrency=50)
+  Duration     : 9.16 s
+  Throughput   : 32.74 req/s
+  Error rate   : 1.33%   {'200': 296, '503': 4}
+  Total cost   : $0.010051
+  Latency (ms) : min=159.5  avg=1285.8  max=7189.3
+                 p50=548.0  p90=3699.4  p95=4688.2  p99=6539.8
+────────────────────────────────────────────────────────
+  SLO p95 ≤ 500ms        : ❌ FAIL
+  SLO error rate ≤ 2.0%  : ✅ PASS
+════════════════════════════════════════════════════════
+
+💾 Đã lưu report: /Users/nguyennamkhanh/Documents/AI In Action/AI20K_Lab/K5-L3A-Day14-NguyenNamKhanh-2A202603398-Deployment-Benchmark-Observability/reports/load_v2_c50.json

@@ -1,0 +1,12 @@
+{
+  "agent": {
+    "id": "6984b02a-07bc-4767-9b4c-b426290b6964",
+    "status": "SUCCESS",
+    "createdAt": "2026-11-25T14:32:47.172Z"
+  },
+  "redis": {
+    "id": "e6a131c0-dfb0-45cc-904f-0af6726d9735",
+    "status": "SUCCESS",
+    "createdAt": "2026-11-25T14:30:26.952Z"
+  }
+}

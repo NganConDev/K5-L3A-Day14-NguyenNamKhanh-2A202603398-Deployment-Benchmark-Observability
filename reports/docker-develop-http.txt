@@ -1,0 +1,3 @@
+POST http://127.0.0.1:62871/ask?question=What%20is%20Docker%3F
+HTTP 200
+{"answer":"Container là cách đóng gói app để chạy ở mọi nơi. Build once, run anywhere!"}

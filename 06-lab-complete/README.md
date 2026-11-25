@@ -1,3 +1,14 @@
+> **Implementation completed:** the original grader passes **12/12** (43/43 checks).
+> Runtime evidence: [`../reports/production-readiness.txt`](../reports/production-readiness.txt).
+> Student explanations: [`../MISSION_ANSWERS.md`](../MISSION_ANSWERS.md).
+> Run/setup order: [`../LAB_PROGRESS.md`](../LAB_PROGRESS.md).
+> Public Railway deployment status: [`../DEPLOYMENT.md`](../DEPLOYMENT.md).
+>
+> The original assignment and contract remain below for reference. The scaffold TODOs
+> in the implementation have been completed. Copy `.env.example` to an ignored `.env`
+> and set a private `AGENT_API_KEY` before enabling `/ask` in Compose. Without a key,
+> the process still starts but `/ask` remains locked. Budgets and rate limits require Redis.
+
 # Part 6 — Final Project: Production-ready AI Agent
 
 Bạn tự xây một AI agent đủ chuẩn production từ **bản khung** trong thư mục này, kết hợp mọi thứ đã học ở Part 1–5.

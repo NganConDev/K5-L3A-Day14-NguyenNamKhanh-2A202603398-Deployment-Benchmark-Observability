@@ -1,0 +1,99 @@
+[
+  {
+    "id": "6984b02a-07bc-4767-9b4c-b426290b6964",
+    "status": "SUCCESS",
+    "createdAt": "2026-11-25T14:32:47.172Z",
+    "meta": {
+      "buildOnly": false,
+      "cliAgentSessionId": "01a212bd-8310-7ff0-be4d-5ef1720bda8e",
+      "cliCaller": "codex",
+      "deployRuntime": "vm",
+      "fileServiceManifest": {},
+      "logsV2": true,
+      "nixpacksProviders": [],
+      "plan": "trial",
+      "propertyFileMapping": {
+        "build.builder": "$.build.builder",
+        "build.dockerfilePath": "$.build.dockerfilePath",
+        "deploy.healthcheckPath": "$.deploy.healthcheckPath",
+        "deploy.healthcheckTimeout": "$.deploy.healthcheckTimeout",
+        "deploy.restartPolicyMaxRetries": "$.deploy.restartPolicyMaxRetries",
+        "deploy.restartPolicyType": "$.deploy.restartPolicyType"
+      },
+      "reason": "deploy",
+      "rootDirectory": null,
+      "runtime": "V2",
+      "runtimePick": {
+        "policy": {
+          "bucket": 4335,
+          "eff": 50,
+          "facts": {
+            "features": [],
+            "image": null,
+            "optIn": false,
+            "plan": "trial",
+            "projectId": "2737300d-7007-4297-b787-73aa1f317dea",
+            "regions": [
+              "iad"
+            ],
+            "repo": null,
+            "source": "cli",
+            "templateCode": null,
+            "workspaceId": "5ef3b8e0-790b-4c2b-b71d-45eec6f067bb"
+          },
+          "reason": "in_rollout_percent",
+          "ruleId": "trial-stateless",
+          "version": 23,
+          "vm": true
+        },
+        "reason": "in_rollout_percent",
+        "runtime": "vm",
+        "succeededAt": "2026-11-25T14:33:17.523Z"
+      },
+      "serviceManifest": {
+        "build": {
+          "buildCommand": null,
+          "buildEnvironment": "V3",
+          "builder": "DOCKERFILE",
+          "dockerfilePath": "/Dockerfile",
+          "nixpacksConfigPath": null,
+          "nixpacksPlan": null,
+          "watchPatterns": []
+        },
+        "deploy": {
+          "cronSchedule": null,
+          "drainingSeconds": null,
+          "healthcheckPath": null,
+          "healthcheckTimeout": null,
+          "ipv6EgressEnabled": false,
+          "limitOverride": null,
+          "multiRegionConfig": {
+            "iad": {
+              "numReplicas": 1
+            }
+          },
+          "numReplicas": 1,
+          "overlapSeconds": null,
+          "preDeployCommand": null,
+          "preDeployTimeoutSeconds": null,
+          "region": null,
+          "registryCredentials": null,
+          "requiredMountPath": null,
+          "restartPolicyMaxRetries": 10,
+          "restartPolicyType": "ON_FAILURE",
+          "runtime": "V2",
+          "sleepApplication": false,
+          "startCommand": null,
+          "useLegacyStacker": false
+        }
+      },
+      "vmHealthcheck": false,
+      "vmImageDeploy": true,
+      "vmLimits": {
+        "cpuLimit": 2,
+        "memoryLimitBytes": 1000000000
+      },
+      "volumeMounts": []
+    }
+  }
+]

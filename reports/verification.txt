@@ -1,0 +1,23 @@
+PASS Grading script and golden dataset unchanged
+PASS Full original grader: 12/12 criteria, 43/43 checks
+PASS Load concurrency 1: 300 measured requests
+PASS Load concurrency 10: 300 measured requests
+PASS Load concurrency 50: 300 measured requests
+PASS Load concurrency 100: 300 measured requests
+PASS Slow-rate 0: 300 measured requests
+PASS Slow-rate 0.03: 300 measured requests
+PASS Slow-rate 0.1: 300 measured requests
+PASS Final eval: 23/23, quality gate PASS, zero regressions
+PASS Scale 1: correct replica count saved
+PASS Scale 1: report matches actual aggregate CSV
+PASS Scale 3: correct replica count saved
+PASS Scale 3: report matches actual aggregate CSV
+PASS Both required alerts captured firing together
+PASS slow trace IDs match saved JSON logs
+PASS error trace IDs match saved JSON logs
+PASS Error trace contains exception event
+PASS All seven real screenshots saved and visually inspected
+PASS Four public Railway checks pass
+PASS Private API key absent from tracked and unignored files
+PASS Private key file ignored by Git
+PASS Git whitespace check passes
